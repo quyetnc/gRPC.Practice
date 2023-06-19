@@ -1,0 +1,443 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\Services\\Inventory\\Inventory.Grpc\\Inventory.Grpc.csproj": {}
+  },
+  "projects": {
+    "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "projectName": "Common.Logging",
+        "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj",
+        "packagesPath": "C:\\Users\\QuyetNC\\.nuget\\packages\\",
+        "outputPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Common.Logging\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\QuyetNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Formatting.Compact": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Serilog.Sinks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.4.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
+        "projectName": "Contracts",
+        "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\QuyetNC\\.nuget\\packages\\",
+        "outputPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Contracts\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\QuyetNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[10.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\QuyetNC\\.nuget\\packages\\",
+        "outputPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\QuyetNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              },
+              "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
+              },
+              "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.0.3, )"
+            },
+            "Hangfire.AspNetCore": {
+              "target": "Package",
+              "version": "[1.7.30, )"
+            },
+            "Hangfire.Console": {
+              "target": "Package",
+              "version": "[1.4.2, )"
+            },
+            "Hangfire.Console.Extensions": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
+            "Hangfire.Mongo": {
+              "target": "Package",
+              "version": "[1.7.2, )"
+            },
+            "Hangfire.PostgreSql": {
+              "target": "Package",
+              "version": "[1.9.8, )"
+            },
+            "Hangfire.SqlServer": {
+              "target": "Package",
+              "version": "[1.7.30, )"
+            },
+            "IdentityServer4.AccessTokenValidation": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "NETCore.MailKit": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\QuyetNC\\.nuget\\packages\\",
+        "outputPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\QuyetNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\Services\\Inventory\\Inventory.Grpc\\Inventory.Grpc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\Services\\Inventory\\Inventory.Grpc\\Inventory.Grpc.csproj",
+        "projectName": "Inventory.Grpc",
+        "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\Services\\Inventory\\Inventory.Grpc\\Inventory.Grpc.csproj",
+        "packagesPath": "C:\\Users\\QuyetNC\\.nuget\\packages\\",
+        "outputPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\Services\\Inventory\\Inventory.Grpc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\QuyetNC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj": {
+                "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Common.Logging\\Common.Logging.csproj"
+              },
+              "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Contracts\\Contracts.csproj": {
+                "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Contracts\\Contracts.csproj"
+              },
+              "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Infrastructure\\Infrastructure.csproj"
+              },
+              "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Shared\\Shared.csproj": {
+                "projectPath": "D:\\Micro-Service\\tedu-aspnetcore-microservices-training-master\\tedu-aspnetcore-microservices-training-master\\src\\BuildingBlocks\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.47.0, )"
+            },
+            "Grpc.AspNetCore.HealthChecks": {
+              "target": "Package",
+              "version": "[2.48.0, )"
+            },
+            "Grpc.AspNetCore.Server.Reflection": {
+              "target": "Package",
+              "version": "[2.48.0, )"
+            },
+            "Grpc.HealthCheck": {
+              "target": "Package",
+              "version": "[2.48.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

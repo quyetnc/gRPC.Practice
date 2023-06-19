@@ -1,0 +1,2 @@
+obj\Release\net6.0\Protos/StockItem.cs \
+obj\Release\net6.0\Protos/StockItemGrpc.cs: Protos/stockItem.proto
